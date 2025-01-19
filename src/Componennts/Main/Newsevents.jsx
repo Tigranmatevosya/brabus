@@ -1,5 +1,4 @@
 import './Newsevents.scss'
-import newsandeventsimg1 from './Imgs/newsandeventsimg1.jpg';
 export default function Newsevents(){
 
     return <div className="news">
@@ -13,7 +12,7 @@ export default function Newsevents(){
            <div className="col">
               <a href="https://www.brabus.com/de-de/brand/news/tuningprogramm-smart.html">
               <div className="colimg">
-               <img src={newsandeventsimg1} alt="" />
+               <img src="https://www.brabus.com/_Resources/Persistent/c/9/e/3/c9e36a6a40abfc39ca0ea44e63bd735b6f201962/BRABUS%20Deep%20Blue_On%20Location_klein%20%2823%29-730x487.jpg?bust=c9e36a6a" alt="" />
                </div>
                 <p className='p1'>INDIVIDUAL ISIERUNGS PROGRAMM FÜR DEN SMART #1 BRABUS <br /> CLASSIC CARS</p>
                 <p className='p2'>
