@@ -1,0 +1,278 @@
+.brxpan{
+    width:100%;
+    background: black;
+}
+
+.brxpanvideo1{
+    width:100%;
+    height:100vh;
+
+    video{
+        width:100%;
+        height:100vh;
+    }
+}
+
+.brxpandiv1{
+    width:100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:white;
+
+    div{
+        width:100%;
+        height:80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
+        .p1{
+            width:100%;
+            font-size: 30px;
+            font-weight: 550;
+            text-align: center;
+        }
+
+        .p2{
+            width:100%;
+            font-size: 33px;
+            font-weight: 100;
+            text-align: center;
+        }
+        .p3{
+            width:100%;
+            font-size: 20px;
+            font-weight: 100;
+            line-height: 1.5;
+            text-align: center;
+        }
+    }
+
+}
+
+
+.brxpanimg1{
+         width:100%;
+         height:120vh;
+         background-image: url("https://www.brabus.com/_Resources/Persistent/2/a/9/8/2a98d506f524fb28c86676ef1df91cbf610aad99/20220426_Brabus_Mallorca_7306.jpg");
+         background-position: center;
+         background-repeat: repeat;
+         background-size: cover;
+}
+
+.brxpandiv2{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    
+    .div1{
+        width:47%;
+        height:100vh;
+        background-image: url("https://www.brabus.com/_Resources/Persistent/6/d/2/8/6d283876647d9f857825036d607c518fb559c31a/JMP-Panerai-960x640.jpg");
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+    }
+
+    .div2{
+        width:53%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background: white;
+
+        div{
+            width:74%;
+            height: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+            .p1{
+                width:100%;
+                text-align: start;
+                font-size: 43px;
+                font-weight: 300;
+    
+                span{
+                font-weight: 600;
+                }
+            }
+
+            .p2{
+                width:100%;
+                font-size:20px;
+                text-align: start;
+                line-height: 1.7;
+                font-weight: 100;
+                color:rgb(67, 67, 67);
+            }
+        }
+    }
+}
+
+
+
+.brxpandiv3{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    
+    .div1{
+        width:47%;
+        height:100vh;
+        background-image: url("https://www.brabus.com/_Resources/Persistent/2/b/c/6/2bc63dff431f35c6d1ccf96a19ce5dfa93a11464/CB-Panerai-960x640.jpg");
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+    }
+
+    .div2{
+        width:53%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background: white;
+
+        div{
+            width:74%;
+            height: 80%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+            .p1{
+                width:100%;
+                text-align: start;
+                font-size: 43px;
+                font-weight: 300;
+    
+                span{
+                font-weight: 600;
+                }
+            }
+
+            .p2{
+                width:100%;
+                font-size:20px;
+                text-align: start;
+                line-height: 1.7;
+                font-weight: 100;
+                color:rgb(67, 67, 67);
+            }
+        }
+    }
+}
+
+.brxpanimg2{
+    width:100%;
+    height:120vh;
+    background-image: url("https://www.brabus.com/_Resources/Persistent/0/0/8/c/008cb9bb1afb4ac9af59c244dbb55ef35b9db9a4/BRABUSXPANERAI2.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+
+.brxpandiv4{
+    width:100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:white;
+
+    div{
+        width:100%;
+        height:80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
+        .p1{
+            width:100%;
+            font-size: 30px;
+            font-weight: 550;
+            text-align: center;
+        }
+
+        .p2{
+            width:100%;
+            font-size: 33px;
+            font-weight: 100;
+            text-align: center;
+        }
+        .p3{
+            width:100%;
+            font-size: 20px;
+            font-weight: 100;
+            line-height: 1.5;
+            text-align: center;
+        }
+       
+    }
+
+}
+.brxpanimg3{
+    width:100%;
+    height:90vh;
+    background-image: url("https://www.brabus.com/_Resources/Persistent/2/2/7/1/2271905dde0aaf936aa6f3edd1167cd31b1837c6/PAM01403_DET_02_B-2-1920x720.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+
+    div{
+        width:100%;
+
+        button{
+            margin:100px;
+            width: 180px;
+            height:40px;
+            border:none;
+            background: white;
+            color:black;
+            transition: 0.3s;
+
+            &:hover{
+                cursor: pointer;
+                background:#b70826;
+                color:white;
+            }
+        }
+    }
+}
+
+.brxpandiv5{
+    width:100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:white;
+
+    div{
+        width:100%;
+        height:80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    
+      img{
+        width:10%;
+      }
+       
+    }
+
+}

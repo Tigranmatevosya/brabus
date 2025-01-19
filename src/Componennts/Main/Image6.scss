@@ -1,0 +1,103 @@
+.image6{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    img{
+        width:100%;
+    }
+    .image6div1{
+        width: 50%;
+        height:100%;
+        background-image: url("https://www.brabus.com/_Resources/Persistent/5/6/a/7/56a7ec659dd6d0b283132e9f452e423018dfcf22/BRABUS%201300%20R%20Masterpiece%20Edition_klein%20%2883%29-1281x1280.jpg");
+        background-size: cover;
+        background-repeat:repeat;
+        background-position:center;
+        display: flex;
+        justify-content: center;
+        font-weight: 100;
+        align-items: end;
+        div{
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            font-size:15px;
+            margin-bottom: 100px;
+            div{
+                width:200px;
+                height: 40px;
+                background: white;
+                color:black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: 0.3s;
+                margin-top:20px;
+                &:hover{
+                    color:white;
+                    cursor: pointer;
+                    background: #b70826;
+                }
+        
+              }
+            h6{
+                width:100%;
+                text-align: center;
+                color: white;
+                font-size: 30px;
+                font-weight: 100;
+            }
+        }
+    }
+
+    .image6div2{
+        width: 50%;
+        height:100%;
+        background-image: url("https://www.brabus.com/_Resources/Persistent/4/b/2/f/4b2fe87d4c127ef21eecc57a5c9595cede9c5225/Pam1285_Cat_Dett02_B_2389465.jpg");
+        background-size: cover;
+        background-repeat:repeat;
+        background-position:center;
+        display: flex;
+        font-weight: 100;
+        justify-content: center;
+        align-items: end;
+        div{
+            width: 100%;
+            height: 10vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            font-size:15px;
+            margin-bottom: 100px;
+            div{
+                width:200px;
+                height: 40px;
+                background: white;
+                color:black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: 0.3s;
+                margin-top:20px;
+                &:hover{
+                    color:white;
+                    cursor: pointer;
+                    background: #b70826;
+                }
+        
+              }
+            h6{
+                width:100%;
+                text-align: center;
+                color: white;
+                font-size: 30px;
+                font-weight: 100;
+            }
+        }
+    }
+    
+}

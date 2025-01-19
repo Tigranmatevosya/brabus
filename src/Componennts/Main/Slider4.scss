@@ -1,0 +1,95 @@
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background:rgb(250, 250, 250);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: whitesmoke;
+    border:1px whitesmoke solid;
+    margin:10px;
+    height:90%;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper {
+      width: 100%;
+      
+    // margin: 20px auto;
+
+  }
+     
+  .append-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .append-buttons button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+  }
+  
+
+  .slider4div{
+    width: 100%;
+    // height:30%;
+    height: 300px;
+    color:black;
+    background:whitesmoke;  
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    font-size: 18px;
+    font-weight: 400;
+    img{
+        width: 100%;
+    }
+    p{
+        width:100%;
+        text-align: start;
+        margin:5px;
+    }
+    h4{
+        margin:50px 0 0 5px;
+    }
+
+    &:hover{
+      cursor:pointer;
+    }
+}

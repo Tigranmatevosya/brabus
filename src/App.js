@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { createContext, useState } from 'react';
+import './App.scss';
+import Main from './Componennts/Main/Main';
+import Menu from './Componennts/Main/Menu';
 
+export const Maincont = createContext()
+
+// 12 037 Bars line 
+// 20 345 All  line
 function App() {
+  
+  const [mmenu,setMmenu] = useState("")
+  const [menubars,setMenubars] = useState("")
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+    <Maincont.Provider value={{
+      mmenu,
+      setMmenu,
+      menubars,
+      setMenubars,
+    }}>
+    
+    <Menu />
+    <Main />
+    </Maincont.Provider>
+
     </div>
   );
 }

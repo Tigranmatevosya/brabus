@@ -1,0 +1,68 @@
+.image2{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    img{
+        width:100%;
+    }
+    .image2div1{
+        width: 50%;
+        height:100%;
+        background-image: url("https://www.brabus.com/_Resources/Persistent/d/c/9/7/dc97eb89f3161b67aed85f62447abf1b55a8ad53/BRABUS%20900%206x6%20Superblack_Split%20Teaser_hochV2-1281x1280.png");
+        background-size: cover;
+        background-repeat:repeat;
+        background-position:center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        div{
+            width: 100%;
+            height: 30vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            p{
+                width:100%;
+                text-align: center;
+                font-weight: 100;
+            }
+            h3{
+                width:100%;
+                text-align: center;
+            }
+        }
+    }
+
+    .image2div2{
+        width: 50%;
+        height:100%;
+        background-image: url("https://www.brabus.com/_Resources/Persistent/1/5/2/a/152aa041362d72b4efc3f2ae2d38284dceb68aa3/BRABUS%20800%206x6%20Adventure_Split%20Teaser_hoch-1281x1280.png");
+        background-size: cover;
+        background-repeat:repeat;
+        background-position:center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        div{
+            width: 100%;
+            height: 30vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            p{
+                width:100%;
+                text-align: center;
+                font-weight: 100;
+            }
+            h3{
+                width:100%;
+                text-align: center;
+            }
+        }
+    }
+}

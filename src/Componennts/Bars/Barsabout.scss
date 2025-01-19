@@ -1,0 +1,117 @@
+.barsabout{
+    width:100%;
+}
+
+.aboutvideo1{
+    width:100%;
+    height: 100vh;
+}
+
+.aboutdiv1{
+    width:100%;
+    height:30vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight:500;
+}
+
+.aboutdiv2{
+    width:100%;
+    height:60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight:400;
+
+    .p1{
+        display: flex;
+        width:80%;
+        font-size: 30px;
+        justify-content: center;
+        font-weight:100;
+        span{
+            font-weight:500;
+        }
+    }
+    .p2{
+        width:80%;
+        font-size: 20px;
+        font-weight:100;
+        text-align: center;
+        line-height: 1.6;
+        color: rgb(70, 69, 69);
+    }
+}
+
+.aboutdiv3{
+    width:100%;
+    height:50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight:400;
+    color:white;
+    background: black;
+
+    .p1{
+        display: flex;
+        width:80%;
+        font-size: 30px;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        font-weight:100;
+        span{
+            width:100%;
+            font-weight:500;
+        }
+    }
+    .p2{
+        width:80%;
+        font-size: 20px;
+        font-weight:100;
+        text-align: center;
+        line-height: 1.6;
+        color: white;
+    }
+}
+
+
+.aboutdiv4{
+    width:100%;
+    height:35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight:400;
+    color:white;
+    background: black;
+
+    .p1{
+        display: flex;
+        width:80%;
+        font-size: 30px;
+        justify-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        font-weight:100;
+        span{
+            width:100%;
+            font-weight:500;
+        }
+    }
+    .p2{
+        width:80%;
+        font-size: 20px;
+        font-weight:100;
+        text-align: center;
+        line-height: 1.6;
+        color: white;
+    }
+}

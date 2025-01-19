@@ -1,0 +1,74 @@
+.image4{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    img{
+        width:100%;
+    }
+    .image2div1{
+        width: 50%;
+        height:100%;
+        background-image: url("https://www.brabus.com/_Resources/Persistent/c/9/4/d/c94d9b48044245948a34d69ee9be0f2a1925e3dc/231021Brabus_075sw_quer-2.jpg");
+        background-size: cover;
+        background-repeat:repeat;
+        background-position:center;
+        display: flex;
+        color:white;
+        justify-content: center;
+        align-items: center;
+        div{
+            width: 100%;
+            height: 30vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            p{
+                width:100%;
+                text-align: center;
+                font-weight: 100;
+            }
+            h6{
+                width:100%;
+                text-align: center;
+                font-weight: 100;
+            }
+        }
+    }
+
+    .image2div2{
+        width: 50%;
+        height:100%;
+        background-image: url("https://www.brabus.com/_Resources/Persistent/9/8/4/7/98479eabf89ecf8f61e7efc9c496ea4246f35e16/20220516-20220516_Brabus_days_3613.jpg");
+        background-size: cover;
+        background-repeat:repeat;
+        background-position:center;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        
+        div{
+            width: 100%;
+            height: 30vh;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            font-weight: 100;
+            font-size: 30px;
+            p{
+                width:100%;
+                text-align: center;
+                font-weight: 100;
+            }
+            h6{
+                width:100%;  
+                text-align: center;
+                font-weight: 100;
+
+            }
+        }
+    }
+}

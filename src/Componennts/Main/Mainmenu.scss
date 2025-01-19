@@ -1,0 +1,27 @@
+.mainmenu{
+    width:80%;
+    height:8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+
+    div{
+        transition: 0.5s;
+        &:hover{
+        cursor: pointer;
+        }
+    }
+}
+.mainmenu1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.maingic{
+    width:90%;
+    height:1px;
+    background: rgb(193, 191, 191);
+}

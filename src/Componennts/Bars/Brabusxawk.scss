@@ -1,0 +1,239 @@
+.brxawk{
+    width: 100%;
+    background: white;
+}
+
+.brxawkvideo1{
+    width: 100%;
+    height: 100vh;
+}
+
+.brxawkdiv1{
+    width:100%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:white;
+    div{
+        width:100%;
+        height:80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        color:rgb(59, 59, 59);
+
+        .p1{
+            width:100%;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 550;
+        }
+        .p2{
+            width:100%;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 100;
+        }
+        .p3{
+            width:70%;
+            text-align: start;
+            font-size: 20px;
+            font-weight:100;
+            line-height: 1.8;
+        }
+        .btndiv{
+            width:100%;
+            display: flex;
+            justify-content: center;
+            
+            button{
+                width:350px;
+                height:50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color:white;
+                background: black;
+                transition: .3s;
+                font-size: 20px;
+                font-weight: 100;
+                border:none;
+                &:hover{
+                    cursor:pointer;
+                    background:#b70826; 
+                }
+            }
+        }
+    }
+}
+
+.brxawkdiv2{
+    width:100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:white;
+    div{
+        width:100%;
+        height:80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        color:rgb(59, 59, 59);
+
+        .p3{
+            width:70%;
+            text-align: start;
+            font-size: 20px;
+            font-weight:100;
+            line-height: 1.8;
+        }
+     
+    }
+}
+
+.brxawkdiv5{
+    width:100%;
+    height: 70vh;
+    background: white;
+    color:black;
+    display: flex;
+    flex-wrap: wrap;
+
+    .div1{
+        width:53%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        div{
+            width:100%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .p1{
+            width:70%;
+            font-size: 45px;
+            font-weight: 100;
+            text-align: center;
+            line-height: 1.1;
+            color:black;
+            text-align: start;
+        }
+        .p2{
+
+            width:70%;
+            font-size: 20px;
+            font-weight: 100;
+            text-align: start;
+            line-height: 1.5;
+        }
+        .p3{
+            width:70%;
+            display: flex;
+            justify-content: start;
+        }
+
+        button{
+            width:190px;
+            height:50px;
+            background: black;
+            color:white;
+            transition: 0.4s;
+            border: none;
+
+            &:hover{
+                background:#b70826;
+                color:white;
+                cursor: pointer;
+            }
+        }
+    }
+    .div2{
+        width: 47%;
+        background-image: url("https://www.brabus.com/_Resources/Persistent/0/c/3/a/0c3a489cb7cba5b60f576d69c1c1a668f2f04109/Splitteaser_Awake.jpg");
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+    }
+}
+
+.brxawkdiv6{
+    width:100%;
+    height: 70vh;
+    background: white;
+    color:black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:150px;   
+    margin-bottom: 50px;
+
+    .div1{
+        width:53%;
+        display: flex;
+        flex-wrap: wrap;           
+        justify-content: center;
+        align-items: center;
+
+        div{
+            width:100%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .p1{
+            width:70%;
+            font-size: 45px;
+            font-weight: 100;
+            text-align: center;
+            line-height: 1.1;
+            color:black;
+            text-align: start;
+        }
+        .p2{
+
+            width:70%;
+            font-size: 20px;
+            font-weight: 100;
+            text-align: start;
+            line-height: 1.5;
+        }
+        .p3{
+            width:70%;
+            display: flex;
+            justify-content: start;
+        }
+
+        button{
+            width:190px;
+            height:50px;
+            background: black;
+            color:white;
+            transition: 0.4s;
+            border: none;
+
+            &:hover{
+                background:#b70826;
+                color:white;
+                cursor: pointer;
+            }
+        }
+    }
+    .div2{
+        width: 47%;
+        background-image: url("https://www.brabus.com/_Resources/Persistent/8/6/1/a/861abc485940bc701ce9d5130b07a404bd7868a4/Splitteaser_Awake2.jpg");
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+    }
+}

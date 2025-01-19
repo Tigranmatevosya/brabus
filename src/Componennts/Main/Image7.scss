@@ -1,0 +1,49 @@
+.image7{
+    width:100%;
+    height: 100vh;
+    background-image: url("https://www.brabus.com/_Resources/Persistent/5/a/8/e/5a8edb43dcb6deac5d7116319849a067b56bb667/230SE-1920x1080.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    .image7div{
+      margin:100px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: end;
+      h6{
+        width: 100%;
+        font-size: 25px;
+        font-weight: 100;
+        text-align: end;
+        color:white;
+      }
+      p{
+        width: 100%;
+        text-align: end;
+        font-size: 20px;
+        font-weight:200;
+        margin-top:8px;
+
+      }
+      .img7div2{
+        width:200px;
+        height: 40px;
+        background: whitesmoke;
+        color:black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.3s;
+        margin-top:20px;
+        &:hover{
+            color:white;
+            cursor: pointer;
+            background: #b70826;
+        }
+
+      }
+    }
+}

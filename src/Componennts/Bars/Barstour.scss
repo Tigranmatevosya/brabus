@@ -1,0 +1,298 @@
+.barstour{
+    width:100%;
+    background-color: white;
+}
+
+.barstourimg1{
+    width:100%;
+    height: 100vh;
+
+    img{
+        width:100%;
+    }
+}
+
+.barstourdiv1{
+    width:100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:white;
+
+    div{
+        width:100%;
+        height:90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .p1{
+            width:100%;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 400;
+            margin:50px;
+        }
+        .p2{
+            width:100%;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 100;
+            line-height: 1.7;
+        }
+    }
+}
+
+.barstourdiv2{
+    width:100%;
+    height:80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div{
+        width:100%;
+        height: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .p1{
+            width:100%;
+            margin: 30px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 400;
+        }
+        .p2{
+            width:100%;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 100;
+            line-height: 1.7;
+            color:rgb(62, 61, 61);
+
+            span{
+                font-weight: 500;
+                font-family: FF DIN;
+                font-size: 23px;
+                color:black;
+            }
+        }
+        .p3{
+            width:100%;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+}
+
+.barstourdiv3{
+    width:100%;
+    height: 100vh;
+    display: flex;
+
+    .div1{
+        width:46%;
+        height: 100%;
+        background-image: url("https://www.brabus.com/_Resources/Persistent/d/e/e/f/deef5b40eaec32cb11dd68c64a02daeae72b53e3/20210210_Brabus_0887-960x640.jpg");
+        background-position: center;
+        background-size:cover;
+        background-repeat: repeat;
+    }
+
+    .div2{
+        width:54%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background: rgb(95, 97, 96);
+        color: whitesmoke;
+
+        div{
+            width:80%;
+            height:80%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            .p1{
+                width: 100%;
+                text-align: start;
+                font-size: 45px;
+                font-weight: 100;
+            }
+            .p2{
+                width: 100%;
+                text-align: start;
+                font-size: 20px;
+                font-weight: 100;
+                u{
+                    font-weight: 400;
+                    color:white;
+                }
+            }
+            .btnp{
+                width:100%;
+                display: flex;
+                justify-content: start;
+
+                button{
+                    width:200px;
+                    height:50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: white;
+                    color:black;
+                    border:none;
+                    transition: .3s;
+                    
+                    &:hover{
+                        cursor: pointer;
+                        color:white;
+                        background:#b70826;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.barstourdiv4{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    margin-top: 100px;
+
+    .div1{
+        width:46%;
+        height: 100%;
+        background-image: url("https://www.brabus.com/_Resources/Persistent/9/8/b/8/98b8b4ac1cc12925b1b2535f94a6947725228428/DSC_7409-960x640.jpg");
+        background-position: center;
+        background-size:cover;
+        background-repeat: repeat;
+    }
+
+    .div2{
+        width:54%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background:#b70826;
+        color: whitesmoke;
+
+        div{
+            width:80%;
+            height:80%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            .p1{
+                width: 100%;
+                text-align: start;
+                font-size: 45px;
+                font-weight: 100;
+            }
+            .p2{
+                width: 100%;
+                text-align: start;
+                font-size: 20px;
+                font-weight: 100;
+                u{
+                    font-weight: 400;
+                    color:white;
+                }
+            }
+            .btnp{
+                width:100%;
+                display: flex;
+                justify-content: start;
+
+                button{
+                    width:200px;
+                    height:50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: white;
+                    color:black;
+                    border:none;
+                    transition: .3s;
+                    
+                    &:hover{
+                        cursor: pointer;
+                        color:white;
+                        background:#b70826;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.barstourdiv5{
+    width:100%;
+    height:140vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div{
+        width:100%;
+        height: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .p1{
+            width:100%;
+            margin: 30px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 400;
+        }
+        .p2{
+            width:100%;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 100;
+            line-height: 1.7;
+            color:rgb(62, 61, 61);
+        }
+        .btnp{
+            width:100%;
+            display: flex;
+            justify-content: center;
+
+            button{
+                width:340px;
+                height:50px;
+                font-size: 20px;
+                font-weight: 100;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: black;
+                color:white;
+                border:none;
+                transition: .3s;
+                
+                &:hover{
+                    cursor: pointer;
+                    color:white;
+                    background:#b70826;
+                }
+            }
+        }
+    }
+}

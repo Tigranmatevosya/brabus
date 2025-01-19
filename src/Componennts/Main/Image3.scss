@@ -1,0 +1,35 @@
+.image3{
+    width: 100%;
+}
+.image3img{
+    width: 100%;
+    height: 100vh;
+    background-image:url("https://www.brabus.com/_Resources/Persistent/a/5/5/2/a552c009a66d18837fa9c92da30085c6c297a92d/BRABUS%20Shadow%201200%20Sun-Top%20Phantom%20Gray%20Signature%20Edition_099A0285-1920x1080.jpg");
+    background-size:cover;
+    background-repeat:repeat;
+    background-position: center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    div{
+        width:100%;
+        height: 20px;
+        text-align: center;
+        color:white;
+        font-size: 25px;
+        font-weight: 100;
+        margin-top: 22%;
+    }
+    button{
+        width:200px;
+        height: 50px;
+        color:black;
+        background:whitesmoke;
+        transition: 0.3s;
+        margin-bottom: 350px;
+        &:hover{
+          color:white;
+          background: #b70826;
+        }
+    }
+}

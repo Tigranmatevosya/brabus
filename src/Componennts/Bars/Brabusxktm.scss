@@ -1,0 +1,587 @@
+.brxktm{
+    width:100%;
+    background: white;
+}
+
+.brxktmvideo1{
+    width:100%;
+    height: 100vh;
+}
+.brxktmdiv1{
+    width:100%;
+    height:40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background:white;
+
+    div{
+        width:100%;
+        height:40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .p1{
+        width:100%;
+        color:black;
+        font-size: 30px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .p2{
+        width:100%;
+        color:rgb(189, 186, 186);
+        font-size: 13px;
+        font-weight: 100;
+        text-align: center;
+    }
+}
+
+.brxktmtimeout{
+    width:100%;
+    height: 50vh;
+    font-size: 30px;
+    
+    div{
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+.gic{
+    width:100%;
+    height:1px;
+    background: rgb(190, 188, 188);
+}
+
+.brxktmtext1{
+    width:100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    background: white;
+
+    div{
+        width:70%;
+        height:80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .p1{
+            width:100%;
+            font-size: 30px;
+            font-weight: 300;
+            color:rgb(60, 60, 60);
+
+            span{
+                font-weight: 500
+            }
+        }
+
+        .p2{
+            width:100%;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 1.8;
+            color:rgb(60, 60, 60);
+        }
+    }
+}
+
+
+.brxktmdiv2{
+    width:100%;
+    height: 70vh;
+    background: white;
+    color:black;
+    display: flex;
+    flex-wrap: wrap;
+
+    .div1{
+        width:53%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        div{
+            width:100%;
+            height: 90%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .p1{
+            width:80%;
+            font-size: 45px;
+            font-weight: 100;
+            text-align: center;
+            line-height: 1.1;
+            color:black;
+            text-align: start;
+        }
+        .p2{
+
+            width:80%;
+            font-size: 20px;
+            font-weight: 100;
+            text-align: start;
+            line-height: 1.8;
+        }
+        .p3{
+            width:70%;
+            display: flex;
+            justify-content: start;
+        }
+
+        button{
+            width:190px;
+            height:50px;
+            background: black;
+            color:white;
+            transition: 0.4s;
+            border: none;
+
+            &:hover{
+                background:#b70826;
+                color:black;
+                cursor: pointer;
+            }
+        }
+    }
+    .div2{
+        width: 47%;
+        height:100%;
+        background-image: url("https://www.brabus.com/_Resources/Persistent/7/8/d/e/78de66bab672daa4e409a58d8924fc5baf8674dd/003_1300R_Masterpiece_Black%20Edition_side-960x640.jpg");
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+    }
+}
+
+ .brxktmdiv3{
+    width:100%;
+    height: 70vh;
+    background: white;
+    color:black;
+    display: flex;
+    flex-wrap: wrap;
+
+    .div1{
+        width:53%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        div{
+            width:100%;
+            height: 90%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .p1{
+            width:80%;
+            font-size: 45px;
+            font-weight: 100;
+            text-align: center;
+            line-height: 1.1;
+            color:black;
+            text-align: start;
+        }
+        .p2{
+
+            width:80%;
+            font-size: 20px;
+            font-weight: 100;
+            text-align: start;
+            line-height: 1.8;
+        }
+        .p3{
+            width:70%;
+            display: flex;
+            justify-content: start;
+        }
+
+        button{
+            width:190px;
+            height:50px;
+            background: black;
+            color:white;
+            transition: 0.4s;
+            border: none;
+
+            &:hover{
+                background:#b70826;
+                color:black;
+                cursor: pointer;
+            }
+        }
+    }
+    .div2{
+        width: 47%;
+        height:100%;
+        background-image: url("https://www.brabus.com/_Resources/Persistent/4/0/1/b/401b29f085aeec02309e13b01197f1d8b6630c4d/007_1300R_Masterpiece_White%20Edition_side-960x640.jpg");
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+    }
+}
+
+.brxktmdiv4{
+    width:100%;
+    height: 90vh;
+    background: black;
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+
+    .div1{
+        width:53%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        div{
+            width:100%;
+            height: 90%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .p1{
+            width:80%;
+            font-size: 45px;
+            font-weight: 100;
+            text-align: center;
+            line-height: 1.1;
+            color:white;
+            text-align: start;
+        }
+        .p2{
+
+            width:80%;
+            font-size: 20px;
+            font-weight: 100;
+            text-align: start;
+            line-height: 1.8;
+        }
+        .p3{
+            width:70%;
+            display: flex;
+            justify-content: start;
+        }
+
+        button{
+            width:190px;
+            height:50px;
+            background: white;
+            color:black;
+            transition: 0.4s;
+            border: none;
+
+            &:hover{
+                background:#b70826;
+                color:black;
+                cursor: pointer;
+            }
+        }
+    }
+    .div2{
+        width: 47%;
+        height:100%;
+        background-image: url("https://www.brabus.com/_Resources/Persistent/e/8/1/6/e8166aaca9aaf9fa45388aa06a88b9a5631eed5e/2024-06-05_BRABUS_1400R_SN24_UV_Paint_02_ub%20Kopie-960x640.jpg");
+        background-position: center;
+        background-repeat: repeat;
+        background-size: cover;
+    }
+}
+
+.brxktmtext2{
+    width:100%;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+
+    div{
+        width:70%;
+        height:90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .p1{
+            width:100%;
+            font-size: 30px;
+            font-weight: 300;
+            // margin-top: 100px;
+            color:rgb(60, 60, 60);
+
+            span{
+                font-weight: 500
+            }
+        }
+
+        .p2{
+            width:100%;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 1.8;
+            color:rgb(60, 60, 60);
+        }
+    }
+}
+
+.brxktmimg1{
+    width:100%;
+    height: 100vh;
+    img{
+        width: 100%;
+    }
+}
+
+
+
+.brxktmtext3{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+
+    div{
+        width:70%;
+        height:70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .p1{
+            width:100%;
+            font-size: 30px;
+            font-weight: 300;
+            margin-top: 100px;
+            color:rgb(60, 60, 60);
+
+            span{
+                font-weight: 500
+            }
+        }
+
+        .p2{
+            width:100%;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 1.8;
+            color:rgb(60, 60, 60);
+        }
+    }
+}
+
+.brxktmdiv5{
+    width:100%;
+    height:140vh;
+    display: flex;
+    justify-content: center;
+    background:white;
+    .div1{
+        width:33%;
+        .p1{
+            font-size: 28px;
+            font-weight: 100;
+            span{
+                font-size: 20px;
+            }
+        }
+        .p2{
+            margin-top:10px;
+            font-weight: 400;
+            font-size: 18px;
+        }
+        .p3{
+            font-size: 16px;
+            font-weight: 200;
+        }
+        .gic{
+            margin:5px;
+        }
+    }
+
+    .div2{
+        width:33%;
+        margin-left: 5%;
+        margin-top:50px;
+        .p1{
+            font-size: 30px;
+            font-weight: 100;
+            span{
+                font-size: 20px;
+            }
+        }
+        .p2{
+            margin-top:10px;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        .p3{
+            font-size: 16px;
+            font-weight: 200;
+        }
+        .gic{
+            margin:5px;
+        }
+    }
+}
+
+.btndiv1{
+    width:100%;
+    height: 40vh;
+    background:white;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    button{
+        width:220px;
+        height:50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background:black;
+        color:white;
+        transition: .3s;
+        border:none;
+        font-size: 19px;
+        font-weight: 100;
+        &:hover{
+          background:#b70826;
+          cursor: pointer;
+        }
+    }
+}
+
+.brxktmdiv6{
+    width:100%;
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    background:white;
+    .div1{
+        width:33%;
+        .p1{
+            font-size: 30px;
+            font-weight: 200;
+            span{
+                font-size: 20px;
+            }
+        }
+        .p2{
+            margin-top:10px;
+            font-weight: 400;
+            font-size: 18px;
+        }
+        .p3{
+            font-size: 16px;
+            font-weight: 200;
+            display: flex;
+            justify-content: space-between;
+        }
+        .gic{
+            margin:5px;
+        }
+    }
+
+    .div2{
+        width:33%;
+        margin-left: 5%;
+        margin-top:100px;
+        .p1{
+            font-size: 30px;
+            font-weight: 200;
+            span{
+                font-size: 20px;
+            }
+        }
+        .p2{
+            margin-top:10px;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        .p3{
+            font-size: 16px;
+            font-weight: 200;
+            display: flex;
+            justify-content: space-between;
+        }
+        .gic{
+            margin:5px;
+        }
+    }
+}
+
+.brxktmfind{
+    width:100%;
+    height:20vh;
+    margin-top:50px;
+    background:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        width:100%;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 550;
+    }
+}
+
+.brxktmrol{
+    background: white;
+}
+
+.brxktmtext4{
+    width:100%;
+    height:40vh;
+    background:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    div{
+        width: 100%;
+        height:35%;
+        background:white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    p{
+        width:80%;
+        text-align: center;
+        color:rgb(202, 201, 201);
+        font-size: 12px;
+        font-weight: 100;
+    }
+}

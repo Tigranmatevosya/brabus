@@ -1,0 +1,228 @@
+#app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .supcarsliderdiv{
+    position:absolute;
+    color:whitesmoke;
+    margin:100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    p{
+      width:100%;
+      font-size: 35px;
+      font-weight: 100;
+      text-align: start;
+    }
+      button{
+        width:150px;
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 15px;
+        height:40px;
+        background:white;
+        color:black;
+        border:none;
+        transition: 0.3s;
+        &:hover{
+          cursor: pointer;
+          background:#b70826;
+          color:whitesmoke; 
+        }
+      }
+      .bt2{
+        width:200px;
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 15px;
+        border:none;
+        height:40px;
+        background:white;
+        color:black;
+        transition: 0.3s;
+        &:hover{
+          cursor: pointer;
+          background:#b70826;
+          color:whitesmoke; 
+        }
+      }
+  }
+
+  .supcarsliderdiv2{
+    position:absolute;
+    color:whitesmoke;
+    margin:100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    p{
+      width:100%;
+      font-size: 35px;
+      font-weight: 100;
+      text-align: end;
+    }
+      button{
+        width:150px;
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 15px;
+        height:40px;
+        background:white;
+        color:black;
+        border:none;
+        transition: 0.3s;
+        &:hover{
+          cursor: pointer;
+          background:#b70826;
+          color:whitesmoke; 
+        }
+      }
+      .bt2{
+        width:200px;
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 15px;
+        border:none;
+        height:40px;
+        background:white;
+        color:black;
+        transition: 0.3s;
+        &:hover{
+          cursor: pointer;
+          background:#b70826;
+          color:whitesmoke; 
+        }
+      }
+    }
+
+    .supcarsliderdiv3{
+      position:absolute;
+      color:whitesmoke;
+      margin:100px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: end;
+      p{
+        width:100%;
+        font-size: 35px;
+        font-weight: 100;
+        text-align: end;
+      }
+        button{
+          width:200px;
+          margin-top: 20px;
+          font-weight: 300;
+          font-size: 15px;
+          height:40px;
+          background:white;
+          color:black;
+          border:none;
+          transition: 0.3s;
+          &:hover{
+            cursor: pointer;
+            background:#b70826;
+            color:whitesmoke; 
+          }
+        }
+        .bt2{
+          width:200px;
+          margin-top: 20px;
+          font-weight: 300;
+          font-size: 15px;
+          border:none;
+          height:40px;
+          background:white;
+          color:black;
+          transition: 0.3s;
+          &:hover{
+            cursor: pointer;
+            background:#b70826;
+            color:whitesmoke; 
+          }
+        }
+      }
+
+      .supcarsliderdiv4{
+        position:absolute;
+        color:black;
+        margin:150px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        p{
+          width:100%;
+          font-size: 35px;
+          font-weight: 100;
+          text-align: start;
+        }
+          button{
+            width:150px;
+            margin-top: 20px;
+            font-weight: 300;
+            font-size: 15px;
+            height:40px;
+            background:black;
+            color:black;
+            border:none;
+            transition: 0.3s;
+            &:hover{
+              cursor: pointer;
+              background:#b70826;
+              color:whitesmoke; 
+            }
+          }
+          .bt2{
+            width:200px;
+            margin-top: 10px;
+            font-weight: 300;
+            font-size: 15px;
+            border:none;
+            height:40px;
+            background:black;
+            color:white;
+            transition: 0.3s;
+            &:hover{
+              cursor: pointer;
+              background:#b70826;
+              color:whitesmoke; 
+            }
+          }
+      }
+    

@@ -1,0 +1,568 @@
+.brhis{
+    width:100%;
+    background: white;
+}
+
+.brhisdiv1{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+
+    div{
+        width:100%;
+        height: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        // align-items: center;
+        
+        .p1{
+            width:100%;
+            text-align: center;
+            font-size: 50px;
+            font-weight: 500;
+        }
+
+        .p2{
+            width:70%;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 100;
+            line-height: 1.7;
+        }
+    }
+}
+
+.brhisimg1{
+    width:100%;
+    height:70vh;
+
+    img{
+        width:100%
+    }
+}
+
+.brhisdiv2{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+
+    div{
+        width:100%;
+        height: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:flex-end;
+        
+        .p1{
+            width:100%;
+            text-align: center;
+            font-size: 40px;
+            font-weight: 100;
+        }
+
+        .p2{
+            width:70%;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 100;
+            line-height: 1.7;
+
+            span{
+            font-size: 16px;
+            font-weight: 400;
+                color: #b70826;
+                &:hover{
+                    cursor: pointer;
+                    color:black;
+                }
+            }
+        }
+    }
+}
+
+.brhisdiv3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: white;
+
+    .div1{
+        width:50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+         
+        div{
+            width:100%;
+            height:70%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .p1{
+            width:70%;
+            text-align: start;
+            font-size: 40px;
+            font-weight: 100;
+        }
+
+        .p2{
+            width:70%;
+            text-align: start;
+            font-size: 20px;
+            font-weight: 100;
+            line-height: 1.7;
+            span{
+            font-size: 18px;
+            font-weight: 200;
+                color: #b70826;
+                &:hover{
+                    cursor: pointer;
+                    color:black;
+                }
+            }
+        }
+    }
+
+    .div2{
+        width: 50%;
+        height: 100%;
+        background-image: url("https://www.brabus.com/_Resources/Persistent/9/2/9/b/929bbacf8119bb8c431f138898ff8caed755645b/2023_Stealth-Green-Text%201091x1091-960x960.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+    }
+}
+
+.brhisdiv4{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+
+    div{
+        width:100%;
+        height: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: end;
+        
+        .p1{
+            width:100%;
+            text-align: center;
+            font-size: 50px;
+            font-weight: 100;
+        }
+
+        .p2{
+            width:70%;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 100;
+            line-height: 1.7;
+        }
+    }
+}
+
+.brhisimg2{
+    width:100%;
+    height:30vh;
+    display: flex;
+    justify-content: center;
+    img{
+        width:100%
+    }
+}
+
+.brhisdiv5{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: white;
+
+    .div1{
+        width:50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+         
+        div{
+            width:100%;
+            height:90%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .p1{
+            width:70%;
+            text-align: start;
+            font-size: 40px;
+            font-weight: 100;
+        }
+
+        .p2{
+            width:70%;
+            text-align: start;
+            font-size: 20px;
+            font-weight: 100;
+            line-height: 1.7;
+            span{
+            font-size: 18px;
+            font-weight: 200;
+                color: #b70826;
+                &:hover{
+                    cursor: pointer;
+                    color:black;
+                }
+            }
+        }
+    }
+
+    .div2{
+        width: 50%;
+        height: 100%;
+        background-image: url("https://www.brabus.com/_Resources/Persistent/2/2/7/8/2278a48e4535c933e2b16becc36985e96e2af989/2023_Deep-Blue-Text%201091x1091-960x960.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+    }
+}
+
+
+.brhisdiv6{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    background: white;
+
+    .div1{
+        width:50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+         
+        div{
+            width:100%;
+            height:90%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .p1{
+            width:70%;
+            text-align: start;
+            font-size: 40px;
+            font-weight: 100;
+        }
+
+        .p2{
+            width:80%;
+            text-align: start;
+            font-size: 20px;
+            font-weight: 100;
+            line-height: 1.7;
+            span{
+            font-size: 18px;
+            font-weight: 200;
+                color: #b70826;
+                &:hover{
+                    cursor: pointer;
+                    color:black;
+                }
+            }
+        }
+    }
+
+    .div2{
+        width: 50%;
+        height: 100%;
+        background-image: url("https://www.brabus.com/_Resources/Persistent/e/a/c/b/eacb23eac460327f2d7cdaedab8d20fa2b5a5ec3/2023_BRABUS-900-Superblack-Text%201091x1091-960x960.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+    }
+}
+
+.brhisdiv7{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    background: white;
+
+    .div1{
+        width:50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+         
+        div{
+            width:100%;
+            height:70%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .p1{
+            width:70%;
+            text-align: start;
+            font-size: 40px;
+            font-weight: 100;
+        }
+
+        .p2{
+            width:80%;
+            text-align: start;
+            font-size: 20px;
+            font-weight: 100;
+            line-height: 1.7;
+            span{
+            font-size: 18px;
+            font-weight: 200;
+                color: #b70826;
+                &:hover{
+                    cursor: pointer;
+                    color:black;
+                }
+            }
+        }
+    }
+
+    .div2{
+        width: 50%;
+        height: 100%;
+        background-image: url("https://www.brabus.com/_Resources/Persistent/b/9/0/3/b903fb06211b44a151a5ec5846e0c4bfea7bf2f5/2023_BRABUS-800-4x4-Superblack-Text%201091x1091-960x960.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+    }
+}
+
+.brhisdiv8{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    background: white;
+
+    .div1{
+        width:50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+         
+        div{
+            width:100%;
+            height:90%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .p1{
+            width:70%;
+            text-align: start;
+            font-size: 40px;
+            font-weight: 100;
+        }
+
+        .p2{
+            width:80%;
+            text-align: start;
+            font-size: 20px;
+            font-weight: 100;
+            line-height: 1.7;
+            span{
+            font-size: 18px;
+            font-weight: 200;
+                color: #b70826;
+                &:hover{
+                    cursor: pointer;
+                    color:black;
+                }
+            }
+        }
+    }
+
+    .div2{
+        width: 50%;
+        height: 100%;
+        background-image: url("https://www.brabus.com/_Resources/Persistent/7/2/4/5/724575f5c2de604160507572c1a0ae782841db69/2023_BRABUS-800-4x4-Stealth-Green-Text%201091x1091-960x960.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+    }
+}
+
+.brhisdiv9{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+
+    div{
+        width:100%;
+        height: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:flex-end;
+        
+        .p1{
+            width:100%;
+            text-align: center;
+            font-size: 40px;
+            font-weight: 100;
+        }
+
+        .p2{
+            width:70%;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 100;
+            line-height: 1.7;
+
+            span{
+            font-size: 16px;
+            font-weight: 400;
+                color: #b70826;
+                &:hover{
+                    cursor: pointer;
+                    color:black;
+                }
+            }
+        }
+    }
+}
+
+.brhisdiv10{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    background: white;
+
+    .div1{
+        width:50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+         
+        div{
+            width:100%;
+            height:70%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .p1{
+            width:70%;
+            text-align: start;
+            font-size: 40px;
+            font-weight: 100;
+        }
+
+        .p2{
+            width:80%;
+            text-align: start;
+            font-size: 20px;
+            font-weight: 100;
+            line-height: 1.7;
+            span{
+            font-size: 18px;
+            font-weight: 200;
+                color: #b70826;
+                &:hover{
+                    cursor: pointer;
+                    color:black;
+                }
+            }
+        }
+    }
+
+    .div2{
+        width: 50%;
+        height: 100%;
+        background-image: url("https://www.brabus.com/_Resources/Persistent/3/3/f/2/33f252a9289ab8c0257759e446b64a0edf14124f/2023_BRABUS-750-BB-Edition-Text%201091x1091-960x960.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+    }
+}
+
+.brhisdiv11{
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    background: white;
+
+    .div1{
+        width:50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+         
+        div{
+            width:100%;
+            height:70%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .p1{
+            width:70%;
+            text-align: start;
+            font-size: 40px;
+            font-weight: 100;
+        }
+
+        .p2{
+            width:80%;
+            text-align: start;
+            font-size: 20px;
+            font-weight: 100;
+            line-height: 1.7;
+            span{
+            font-size: 18px;
+            font-weight: 200;
+                color: #b70826;
+                &:hover{
+                    cursor: pointer;
+                    color:black;
+                }
+            }
+        }
+    }
+
+    .div2{
+        width: 50%;
+        height: 100%;
+        background-image: url("https://www.brabus.com/_Resources/Persistent/1/0/b/5/10b54e5a29a13391aa24e8c53170f7c349313f2e/2023_BRABUS-850-Maybach-Text1091x1091-960x960.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+    }
+}
